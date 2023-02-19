@@ -1,0 +1,9 @@
+@tailwind components;
+@layer components {
+  .title {
+    @apply uppercase mb-7 text-left text-primary font-bold text-lg pb-2 border-b-2 border-primary;
+  }
+  .row {
+    @apply flex items-center justify-between;
+  }
+}

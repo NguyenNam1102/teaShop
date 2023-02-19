@@ -1,0 +1,12 @@
+@tailwind components;
+@layer components {
+  .showMenu {
+    @apply bg-white fixed z-10 right-0 left-0 top-0 shadow-header duration-300;
+  }
+  .link {
+    @apply text-primary mx-3 uppercase text-base font-semibold relative hover:text-price hover:opacity-90 duration-200 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary hover:after:ease-in-out after:duration-700 hover:after:bg-price hover:after:w-full;
+  }
+  .active {
+    @apply text-price;
+  }
+}
