@@ -42,7 +42,7 @@ function Cart() {
   };
   return (
     <div className="relative tablet:px-5 mobie:px-8 mobie:py-2">
-      <div className="laptop:fixed laptop:top-[90px] laptop:right-6 laptop:max-w-[200px] tablet:text-white tablet:rounded-lg tablet:shadow-2xl tablet:bg-primary p-5 tablet:w-[30%] tablet:my-4 mobie:w-[100%] float-right">
+      <div className="laptop:fixed laptop:top-[120px] laptop:right-6 laptop:max-w-[200px] tablet:text-white tablet:rounded-lg tablet:shadow-2xl tablet:bg-primary p-5 tablet:w-[30%] tablet:my-4 mobie:w-[100%] float-right">
         <p className="uppercase text-left">
           Tổng Tiền: <span className="font-bold">{totalPrice}đ</span>{" "}
         </p>

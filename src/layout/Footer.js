@@ -29,17 +29,17 @@ function Footer() {
           {/* <div className="text-justify laptop:basis-1/2 medium:basis-2/3 medium:max-w-[60%]"> */}
           <div className="text-justify">
             <h2 className="text-xl font-medium uppercase mb-6">
-              CÔNG TY TNHH Thủy Anh
+              CƠ SỞ SẢN XUẤT TRÀ THỦY ANH
             </h2>
             <p className="">
               <span className="font-medium">Mã Số Thuế : </span>
               0123456789
             </p>
             <p className="">
-              <span className="font-medium">Nhà Máy Sản Xuất :</span>
-              Xóm Nam Hưng, Xã Tân Cương, TP.Thái Nguyên
+              <span className="font-medium">Nhà Máy Sản Xuất : </span>
+              Xóm Y Na, Xã Tân Cương, TP.Thái Nguyên
             </p>
-            <p className="mb-6">Cửa hàng tại Hà Nội:</p>
+            <p className="mb-6">Cửa hàng tại Hà Nội : </p>
             <p className="laptop:w-[360px] text-sm">
               ○ Số 189 Giáp Nhất, Thượng Đình, Thanh Xuân, Hà Nội (Đối diện Ga
               Láng)

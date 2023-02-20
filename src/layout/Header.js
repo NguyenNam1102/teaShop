@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import "./header.css";
+import "./headers.css";
 import SidebarCart from "./../components/cart/SildebarCart";
 import { useSelector } from "react-redux";
 import { getQuantity } from "./../redux/selector";
@@ -57,10 +58,44 @@ function Header() {
 
   return (
     <header ref={showMenu}>
+      <div className='header'>
+        <div className='header-firt'>
+          <div className='hotline'>
+            Gọi ngay :
+            <b>
+              &nbsp;
+              <a href="tel:0933862589" class="">0834765056</a>
+              &nbsp;
+              &nbsp;
+              <a href="tel:0933862589" class="">0827231697</a>
+            </b>
+          </div>
+        </div>
+
+        <div className='header-second'>
+          <div>
+            <i class="fa-solid fa-user"></i>
+            &nbsp;
+            <a href="https://" class="">
+              Trà đặc sản
+            </a>
+          </div>
+          &nbsp;
+          l
+          &nbsp;
+          <div>
+            <i class="fa-solid fa-pencil"></i>
+            &nbsp;
+            <a href="https://" class="">
+              Thủy Anh
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="laptop:max-w-[1170px] flex justify-between items-center m-auto tablet:px-5 mobie:px-8 mobie:py-2">
         <img
           className="image w-[50px] h-[50px]"
-          src={require("../asset/image/logo.png")}
+          src={require("../asset/image/thuyanh-logo.jpg")}
           alt="#error_picture"
         />
         <div className="relative flex w-[60%] tablet:justify-between items-center mobie:justify-end">
@@ -127,7 +162,7 @@ function Header() {
           <div className="tablet:hidden mr-5 cursor-pointer hover:opacity-70">
             <DehazeIcon
               ref={DehazeIconRef}
-              // onClick={() => setDropdown(!dropdown)}
+            // onClick={() => setDropdown(!dropdown)}
             />
           </div>
 

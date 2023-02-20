@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    font-size: 14px;
+    padding: 10px;
+    border-top: 4px solid green;
+    border-bottom: 1px solid rgb(154, 236, 154);
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-firt {
+    font-size: 14px;
+}
+
+.hotline {
+    margin-left: 40px;
+}
+
+.header-second {
+    display: flex;
+    margin-right: 40px;
+}
